@@ -334,7 +334,7 @@ function popularCamposComRespostaJSONBusca(objJSONresp) {
     var texto= "";
     
     for ( i = 0; i< objJSONresp.arrayDeRespostas.length; i++){        
-     texto += " <div classe=\"Consulta\" style=\" margin-left: 10px;\"> <br> Patrimonio:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].patrimonio) + "<br> Título:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].titulo) + "<br> Autoria:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].autoria) + "<br> Veículo:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].veiculo) + "<br> <hr> </div>";
+     texto += " <div classe=\"Consulta\" style=\" margin-left: 10px;\"> <br>  Patrimonio:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].patrimonio) + "<br> Título:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].titulo) + "<br> Autoria:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].autoria) + "<br> Veículo:" + JSON.stringify(objJSONresp.arrayDeRespostas[i].veiculo) + "<br> <hr> </div>";
     }
     
     document.getElementById('idTabelaResultados').innerHTML = texto;    
